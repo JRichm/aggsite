@@ -11,7 +11,7 @@ export default function Home() {
     for (let i = 0; i < numItems; i++) {
       elements.push(
         <div className='bg-black w-[456px] h-[456px] border-4 border-black rounded-2xl flex hover:cursor-pointer'>
-          <p className='bg-black text-white text-3xl absolute self-end w-fit pl-6 pr-8 pb-2 py-3 rounded-tr-xl rounded-bl-md'>this could be anything</p>
+          <p className='bg-black text-white text-3xl absolute self-end w-fit pl-6 pr-8 pb-2 py-3 rounded-tr-xl rounded-bl-md'>item name</p>
           <div className='bg-white w-full h-full rounded-xl'></div>
         </div>
       )
@@ -32,7 +32,7 @@ export default function Home() {
     for (let i = 0; i < numItems; i++) {
       elements.push(
         <div className='bg-black w-[456px] h-[456px] border-4 border-black rounded-2xl flex hover:cursor-pointer'>
-          <p className='bg-black text-white text-3xl absolute self-end w-fit pl-6 pr-8 pb-2 py-3 rounded-tr-xl rounded-bl-md'>this could be anything</p>
+          <p className='bg-black text-white text-3xl absolute self-end w-fit pl-6 pr-8 pb-2 py-3 rounded-tr-xl rounded-bl-md'>item name</p>
           <div className='bg-white w-full h-full rounded-xl'></div>
         </div>
       )
@@ -56,7 +56,7 @@ export default function Home() {
             <div className='m-40 mt-60 flex flex-col gap-2'>
               <h1 className='text-[60px] font-bold'>Epoch Edge</h1>
               <p>Unveiling the Essence of Unseen Futures in Fashion.</p>
-              <input type="button" value="Shop Now" className='bg-black text-white px-6 py-3 rounded-md cursor-pointer hover:bg-transparent hover:text-black hover:outline hover:outline-black hover:outline-2 w-fit'></input>
+              <a href="/shop" className='bg-black text-white px-6 py-3 rounded-md cursor-pointer hover:bg-transparent hover:text-black hover:outline hover:outline-black hover:outline-2 w-fit'>Shop Now</a>
             </div>
             <div className='absolute bottom-0 top-0 right-0 left-0 overflow-hidden z-[-10] bg-gray-100'>
               <img src="images/hero_glasses.png" className='float-right mt-[-25px] mr-40'></img>

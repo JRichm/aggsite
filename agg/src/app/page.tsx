@@ -11,7 +11,7 @@ export default function Home() {
     for (let i = 0; i < numItems; i++) {
       elements.push(
         <div className='bg-black w-[456px] h-[456px] border-4 border-black rounded-2xl flex hover:cursor-pointer'>
-          <p className='bg-black text-white text-3xl absolute self-end w-fit pl-6 pr-8 pb-2 py-3 rounded-tr-xl rounded-bl-md'>item name</p>
+          <p className='bg-black text-white text-3xl absolute self-end w-fit pl-6 pr-8 pb-2 py-3 rounded-tr-xl rounded-bl-md'>bean name</p>
           <div className='bg-white w-full h-full rounded-xl'></div>
         </div>
       )
